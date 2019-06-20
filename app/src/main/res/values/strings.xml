@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Eticket</string>
+    <string name="login">Login</string>
+    <string name="book_ticket">Book Ticket</string>
+    <string name="other_apps">Other Apps</string>
+    <string name="trip_planner">Trip planner</string>
+    <string name="view_ticket">View Ticket</string>
+    <string name="wallet">Wallet</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="username">Username</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="Email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="register">Register</string>
+    <string name="register_here">Register Here !</string>
+    <string name="already_registered">Already Registered !</string>
+    <string name="error_message_first">Enter First Name</string>
+    <string name="error_message_last">Enter Last Name</string>
+    <string name="error_message_user">Enter User Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_phone">Enter Phone</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="error_message_confirm_password">Enter Confirm Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="success_booking">Booking Successful</string>
+    <string name="add_money">You need to add money in wallet for this transaction</string>
+    <string name="login_first">You need to Login first</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">User Name Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="add_balance">Add Balance</string>
+    <string name="check_balance">Check Balance</string>
+
+
+</resources>

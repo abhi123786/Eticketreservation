@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OtherAppsScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mmtlogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Make My Trip"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/open_mmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rippleprimary"
+            android:text="Open"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/cleartrip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="clearTrip"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/open_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rippleprimary"
+            android:text="Open"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/trip_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Trip Advisor"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/open_trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rippleprimary"
+            android:text="Open"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ixigo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Ixigo"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/open_ixigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rippleprimary"
+            android:text="Open"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
